@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_5" time="44.767" tests="2" failures="0" errors="0">
+   <testsuite name="TS_5" tests="2" failures="0" errors="0" time="44.767" skipped="0" timestamp="30-05-2024T20:41:21" hostname="PC - DESKTOP-EVNNDTO" id="Test Suites/TS_5">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\FSoft\\katalon-src\\katalon-visual-testing\\Reports\\20240530_204114\\TS_5\\20240530_204115"/>
+         <property name="logFiles" value="D:\\FSoft\\katalon-src\\katalon-visual-testing\\Reports\\20240530_204114\\TS_5\\20240530_204115\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-Appointment Dialog Origin.png, keyes\keyes-Facilty.png, keyes\keyes-Medicare.png, keyes\keyes-Visit Date.png, keyes\keyes-Appointment Dialog With Data.png, keyes\keyes-Review Appoitment.png, keyes\keyes-Appointment Dialog Origin.png, keyes\keyes-Facilty.png, keyes\keyes-Medicare.png, keyes\keyes-Visit Date.png, keyes\keyes-Appointment Dialog With Data.png, keyes\keyes-Review Appoitment.png"/>
+         <property name="hostName" value="PC - DESKTOP-EVNNDTO"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.156"/>
+         <property name="sessionId" value="f0aa8769be948819bfb4e78d9e9357a4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Main Test Cases/TC2_Verify Successful Appointment_With TestOps Visual Testing" time="22.793" classname="Test Cases/Main Test Cases/TC2_Verify Successful Appointment_With TestOps Visual Testing" status="PASSED">
+         <system-out><![CDATA[30-05-2024T20:41:21 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC2_Verify Successful Appointment_With TestOps Visual Testing: Test Cases/Main Test Cases/TC2_Verify Successful Appointment_With TestOps Visual Testing
+
+30-05-2024T20:41:22 - [TEST_STEP][PASSED] - comment("Story: Book an appointment"): Story: Book an appointment
+
+30-05-2024T20:41:22 - [MESSAGE][INFO] - Story: Book an appointment
+
+30-05-2024T20:41:22 - [TEST_STEP][PASSED] - comment("Given that the user has logged into their account"): Given that the user has logged into their account
+
+30-05-2024T20:41:22 - [MESSAGE][INFO] - Given that the user has logged into their account
+
+30-05-2024T20:41:22 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'http://demoaut.katalon.com'
+
+30-05-2024T20:41:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-05-2024T20:41:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-05-2024T20:41:30 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com'
+
+30-05-2024T20:41:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-05-2024T20:41:30 - [MESSAGE][PASSED] - Current window maximized
+
+30-05-2024T20:41:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Test Cases/Login"), ["Username":"John Doe", "Password":"ThisIsNotAPassword"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+30-05-2024T20:41:30 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Login: Test Cases/Common Test Cases/Login
+
+30-05-2024T20:41:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_CuraHomepage/btn_MakeAppointment")): Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+30-05-2024T20:41:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+30-05-2024T20:41:31 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_UserName"), Username): Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+30-05-2024T20:41:32 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+30-05-2024T20:41:32 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+30-05-2024T20:41:33 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+30-05-2024T20:41:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_Login")): Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+30-05-2024T20:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+30-05-2024T20:41:34 - [TEST_STEP][PASSED] - landingPage = verifyElementPresent(findTestObject("Page_CuraAppointment/div_Appointment"), G_Timeout): Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+30-05-2024T20:41:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+30-05-2024T20:41:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+30-05-2024T20:41:34 - [TEST_STEP][PASSED] - comment("And Appointment page is displayed"): And Appointment page is displayed
+
+30-05-2024T20:41:34 - [MESSAGE][INFO] - And Appointment page is displayed
+
+30-05-2024T20:41:34 - [TEST_STEP][PASSED] - takeElementScreenshotAsCheckpoint("Appointment Dialog Origin", AppointmentDialogObject): Taking screenshot successfully
+
+30-05-2024T20:41:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-05-2024T20:41:35 - [MESSAGE][INFO] - 0 hidden object(s)
+
+30-05-2024T20:41:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Appointment Dialog Origin.png]]
+
+30-05-2024T20:41:35 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Page_CuraAppointment/lst_Facility"), "Hongkong CURA Healthcare Center", false): All options with label 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CuraAppointment/lst_Facility' 
+
+30-05-2024T20:41:35 - [MESSAGE][PASSED] - All options with label 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CuraAppointment/lst_Facility' 
+
+30-05-2024T20:41:35 - [TEST_STEP][PASSED] - takeElementScreenshotAsCheckpoint("Facilty", FacilityObject): Taking screenshot successfully
+
+30-05-2024T20:41:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-05-2024T20:41:36 - [MESSAGE][INFO] - 0 hidden object(s)
+
+30-05-2024T20:41:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Facilty.png]]
+
+30-05-2024T20:41:36 - [TEST_STEP][PASSED] - check(findTestObject("Page_CuraAppointment/chk_Medicaid")): Object 'Object Repository/Page_CuraAppointment/chk_Medicaid' is checked
+
+30-05-2024T20:41:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/chk_Medicaid' is checked
+
+30-05-2024T20:41:36 - [TEST_STEP][PASSED] - takeElementScreenshotAsCheckpoint("Medicare", MedicareChoicesObject): Taking screenshot successfully
+
+30-05-2024T20:41:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-05-2024T20:41:36 - [MESSAGE][INFO] - 0 hidden object(s)
+
+30-05-2024T20:41:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Medicare.png]]
+
+30-05-2024T20:41:36 - [TEST_STEP][PASSED] - check(findTestObject("Page_CuraAppointment/chk_Readmission")): Object 'Object Repository/Page_CuraAppointment/chk_Readmission' is checked
+
+30-05-2024T20:41:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/chk_Readmission' is checked
+
+30-05-2024T20:41:37 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CuraAppointment/txt_VisitDate"), "27/12/2016"): Text '27/12/2016' is set on object 'Object Repository/Page_CuraAppointment/txt_VisitDate'
+
+30-05-2024T20:41:37 - [MESSAGE][PASSED] - Text '27/12/2016' is set on object 'Object Repository/Page_CuraAppointment/txt_VisitDate'
+
+30-05-2024T20:41:37 - [TEST_STEP][PASSED] - click(CommentLabelObject): Object: 'Object Repository/Vision_Common/Comment_Label' is clicked on
+
+30-05-2024T20:41:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Vision_Common/Comment_Label' is clicked on
+
+30-05-2024T20:41:38 - [TEST_STEP][PASSED] - takeElementScreenshotAsCheckpoint("Visit Date", DateObject): Taking screenshot successfully
+
+30-05-2024T20:41:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-05-2024T20:41:38 - [MESSAGE][INFO] - 0 hidden object(s)
+
+30-05-2024T20:41:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Visit Date.png]]
+
+30-05-2024T20:41:38 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CuraAppointment/txt_Comment"), "Please make appointment as soon as possible."): Text 'Please make appointment as soon as possible.' is set on object 'Object Repository/Page_CuraAppointment/txt_Comment'
+
+30-05-2024T20:41:39 - [MESSAGE][PASSED] - Text 'Please make appointment as soon as possible.' is set on object 'Object Repository/Page_CuraAppointment/txt_Comment'
+
+30-05-2024T20:41:39 - [TEST_STEP][PASSED] - comment("When he fills in valid information in Appointment page"): When he fills in valid information in Appointment page
+
+30-05-2024T20:41:39 - [MESSAGE][INFO] - When he fills in valid information in Appointment page
+
+30-05-2024T20:41:39 - [TEST_STEP][PASSED] - if (Random().nextBoolean()): null
+
+30-05-2024T20:41:39 - [TEST_STEP][PASSED] - takeElementScreenshotAsCheckpoint("Appointment Dialog With Data", AppointmentDialogObject): Taking screenshot successfully
+
+30-05-2024T20:41:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-05-2024T20:41:39 - [MESSAGE][INFO] - 0 hidden object(s)
+
+30-05-2024T20:41:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Appointment Dialog With Data.png]]
+
+30-05-2024T20:41:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_CuraAppointment/btn_BookAppointment")): Object: 'Object Repository/Page_CuraAppointment/btn_BookAppointment' is clicked on
+
+30-05-2024T20:41:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraAppointment/btn_BookAppointment' is clicked on
+
+30-05-2024T20:41:40 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Review Appoitment"): Taking screenshot successfully
+
+30-05-2024T20:41:41 - [MESSAGE][INFO] - 0 hidden object(s)
+
+30-05-2024T20:41:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Review Appoitment.png]]
+
+30-05-2024T20:41:41 - [TEST_STEP][PASSED] - verifyTextPresent("Appointment Confirmation", false): Text 'Appointment Confirmation' is present on page 
+
+30-05-2024T20:41:41 - [MESSAGE][PASSED] - Text 'Appointment Confirmation' is present on page 
+
+30-05-2024T20:41:41 - [TEST_STEP][PASSED] - comment("Then he should be able to book a new appointment"): Then he should be able to book a new appointment
+
+30-05-2024T20:41:41 - [MESSAGE][INFO] - Then he should be able to book a new appointment
+
+30-05-2024T20:41:41 - [TEST_STEP][PASSED] - verifyMatch("Hongkong CURA Healthcare Center", getText(findTestObject("Page_AppointmentConfirmation/lbl_Facility")), false): Actual text 'Hongkong CURA Healthcare Center' and expected text 'Hongkong CURA Healthcare Center' are matched 
+
+30-05-2024T20:41:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_Facility' is: 'Hongkong CURA Healthcare Center'
+
+30-05-2024T20:41:42 - [MESSAGE][PASSED] - Actual text 'Hongkong CURA Healthcare Center' and expected text 'Hongkong CURA Healthcare Center' are matched 
+
+30-05-2024T20:41:42 - [TEST_STEP][PASSED] - verifyMatch("Yes", getText(findTestObject("Page_AppointmentConfirmation/lbl_HospitalReadmission")), false): Actual text 'Yes' and expected text 'Yes' are matched 
+
+30-05-2024T20:41:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_HospitalReadmission' is: 'Yes'
+
+30-05-2024T20:41:42 - [MESSAGE][PASSED] - Actual text 'Yes' and expected text 'Yes' are matched 
+
+30-05-2024T20:41:42 - [TEST_STEP][PASSED] - verifyMatch("Medicaid", getText(findTestObject("Page_AppointmentConfirmation/lbl_Program")), false): Actual text 'Medicaid' and expected text 'Medicaid' are matched 
+
+30-05-2024T20:41:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_Program' is: 'Medicaid'
+
+30-05-2024T20:41:42 - [MESSAGE][PASSED] - Actual text 'Medicaid' and expected text 'Medicaid' are matched 
+
+30-05-2024T20:41:42 - [TEST_STEP][PASSED] - verifyMatch("27/12/2016", getText(findTestObject("Page_AppointmentConfirmation/lbl_VisitDate")), false): Actual text '27/12/2016' and expected text '27/12/2016' are matched 
+
+30-05-2024T20:41:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_VisitDate' is: '27/12/2016'
+
+30-05-2024T20:41:43 - [MESSAGE][PASSED] - Actual text '27/12/2016' and expected text '27/12/2016' are matched 
+
+30-05-2024T20:41:43 - [TEST_STEP][PASSED] - verifyMatch("Please make appointment as soon as possible.", getText(findTestObject("Page_AppointmentConfirmation/lbl_Comment")), false): Actual text 'Please make appointment as soon as possible.' and expected text 'Please make appointment as soon as possible.' are matched 
+
+30-05-2024T20:41:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_Comment' is: 'Please make appointment as soon as possible.'
+
+30-05-2024T20:41:43 - [MESSAGE][PASSED] - Actual text 'Please make appointment as soon as possible.' and expected text 'Please make appointment as soon as possible.' are matched 
+
+30-05-2024T20:41:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-05-2024T20:41:43 - [MESSAGE][PASSED] - Browser is closed
+
+30-05-2024T20:41:43 - [TEST_STEP][PASSED] - Start listener action : terminateRunningWebDrivers: null
+
+30-05-2024T20:41:43 - [TEST_STEP][PASSED] - cleanup(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/TC2_Verify Successful Appointment_With TestOps Visual Testing - Copy" time="21.762" classname="Test Cases/Main Test Cases/TC2_Verify Successful Appointment_With TestOps Visual Testing - Copy" status="PASSED">
+         <system-out><![CDATA[30-05-2024T20:41:44 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC2_Verify Successful Appointment_With TestOps Visual Testing - Copy: Test Cases/Main Test Cases/TC2_Verify Successful Appointment_With TestOps Visual Testing - Copy
+
+30-05-2024T20:41:44 - [TEST_STEP][PASSED] - comment("Story: Book an appointment"): Story: Book an appointment
+
+30-05-2024T20:41:44 - [MESSAGE][INFO] - Story: Book an appointment
+
+30-05-2024T20:41:44 - [TEST_STEP][PASSED] - comment("Given that the user has logged into their account"): Given that the user has logged into their account
+
+30-05-2024T20:41:44 - [MESSAGE][INFO] - Given that the user has logged into their account
+
+30-05-2024T20:41:44 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'http://demoaut.katalon.com'
+
+30-05-2024T20:41:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-05-2024T20:41:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-05-2024T20:41:52 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com'
+
+30-05-2024T20:41:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-05-2024T20:41:52 - [MESSAGE][PASSED] - Current window maximized
+
+30-05-2024T20:41:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Test Cases/Login"), ["Username":"John Doe", "Password":"ThisIsNotAPassword"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+30-05-2024T20:41:52 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Login: Test Cases/Common Test Cases/Login
+
+30-05-2024T20:41:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_CuraHomepage/btn_MakeAppointment")): Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+30-05-2024T20:41:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+30-05-2024T20:41:53 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_UserName"), Username): Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+30-05-2024T20:41:54 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+30-05-2024T20:41:54 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+30-05-2024T20:41:54 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+30-05-2024T20:41:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_Login")): Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+30-05-2024T20:41:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+30-05-2024T20:41:55 - [TEST_STEP][PASSED] - landingPage = verifyElementPresent(findTestObject("Page_CuraAppointment/div_Appointment"), G_Timeout): Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+30-05-2024T20:41:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+30-05-2024T20:41:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+30-05-2024T20:41:56 - [TEST_STEP][PASSED] - comment("And Appointment page is displayed"): And Appointment page is displayed
+
+30-05-2024T20:41:56 - [MESSAGE][INFO] - And Appointment page is displayed
+
+30-05-2024T20:41:56 - [TEST_STEP][PASSED] - takeElementScreenshotAsCheckpoint("Appointment Dialog Origin", AppointmentDialogObject): Taking screenshot successfully
+
+30-05-2024T20:41:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-05-2024T20:41:56 - [MESSAGE][INFO] - 0 hidden object(s)
+
+30-05-2024T20:41:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Appointment Dialog Origin.png]]
+
+30-05-2024T20:41:56 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Page_CuraAppointment/lst_Facility"), "Hongkong CURA Healthcare Center", false): All options with label 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CuraAppointment/lst_Facility' 
+
+30-05-2024T20:41:57 - [MESSAGE][PASSED] - All options with label 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CuraAppointment/lst_Facility' 
+
+30-05-2024T20:41:57 - [TEST_STEP][PASSED] - takeElementScreenshotAsCheckpoint("Facilty", FacilityObject): Taking screenshot successfully
+
+30-05-2024T20:41:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-05-2024T20:41:57 - [MESSAGE][INFO] - 0 hidden object(s)
+
+30-05-2024T20:41:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Facilty.png]]
+
+30-05-2024T20:41:57 - [TEST_STEP][PASSED] - check(findTestObject("Page_CuraAppointment/chk_Medicaid")): Object 'Object Repository/Page_CuraAppointment/chk_Medicaid' is checked
+
+30-05-2024T20:41:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/chk_Medicaid' is checked
+
+30-05-2024T20:41:58 - [TEST_STEP][PASSED] - takeElementScreenshotAsCheckpoint("Medicare", MedicareChoicesObject): Taking screenshot successfully
+
+30-05-2024T20:41:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-05-2024T20:41:58 - [MESSAGE][INFO] - 0 hidden object(s)
+
+30-05-2024T20:41:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Medicare.png]]
+
+30-05-2024T20:41:58 - [TEST_STEP][PASSED] - check(findTestObject("Page_CuraAppointment/chk_Readmission")): Object 'Object Repository/Page_CuraAppointment/chk_Readmission' is checked
+
+30-05-2024T20:41:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/chk_Readmission' is checked
+
+30-05-2024T20:41:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CuraAppointment/txt_VisitDate"), "27/12/2016"): Text '27/12/2016' is set on object 'Object Repository/Page_CuraAppointment/txt_VisitDate'
+
+30-05-2024T20:41:59 - [MESSAGE][PASSED] - Text '27/12/2016' is set on object 'Object Repository/Page_CuraAppointment/txt_VisitDate'
+
+30-05-2024T20:41:59 - [TEST_STEP][PASSED] - click(CommentLabelObject): Object: 'Object Repository/Vision_Common/Comment_Label' is clicked on
+
+30-05-2024T20:41:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Vision_Common/Comment_Label' is clicked on
+
+30-05-2024T20:41:59 - [TEST_STEP][PASSED] - takeElementScreenshotAsCheckpoint("Visit Date", DateObject): Taking screenshot successfully
+
+30-05-2024T20:41:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-05-2024T20:42:00 - [MESSAGE][INFO] - 0 hidden object(s)
+
+30-05-2024T20:42:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Visit Date.png]]
+
+30-05-2024T20:42:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CuraAppointment/txt_Comment"), "Please make appointment as soon as possible."): Text 'Please make appointment as soon as possible.' is set on object 'Object Repository/Page_CuraAppointment/txt_Comment'
+
+30-05-2024T20:42:01 - [MESSAGE][PASSED] - Text 'Please make appointment as soon as possible.' is set on object 'Object Repository/Page_CuraAppointment/txt_Comment'
+
+30-05-2024T20:42:01 - [TEST_STEP][PASSED] - comment("When he fills in valid information in Appointment page"): When he fills in valid information in Appointment page
+
+30-05-2024T20:42:01 - [MESSAGE][INFO] - When he fills in valid information in Appointment page
+
+30-05-2024T20:42:01 - [TEST_STEP][PASSED] - if (Random().nextBoolean()): null
+
+30-05-2024T20:42:01 - [TEST_STEP][PASSED] - takeElementScreenshotAsCheckpoint("Appointment Dialog With Data", AppointmentDialogObject): Taking screenshot successfully
+
+30-05-2024T20:42:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-05-2024T20:42:01 - [MESSAGE][INFO] - 0 hidden object(s)
+
+30-05-2024T20:42:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Appointment Dialog With Data.png]]
+
+30-05-2024T20:42:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_CuraAppointment/btn_BookAppointment")): Object: 'Object Repository/Page_CuraAppointment/btn_BookAppointment' is clicked on
+
+30-05-2024T20:42:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraAppointment/btn_BookAppointment' is clicked on
+
+30-05-2024T20:42:02 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Review Appoitment"): Taking screenshot successfully
+
+30-05-2024T20:42:02 - [MESSAGE][INFO] - 0 hidden object(s)
+
+30-05-2024T20:42:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Review Appoitment.png]]
+
+30-05-2024T20:42:03 - [TEST_STEP][PASSED] - verifyTextPresent("Appointment Confirmation", false): Text 'Appointment Confirmation' is present on page 
+
+30-05-2024T20:42:03 - [MESSAGE][PASSED] - Text 'Appointment Confirmation' is present on page 
+
+30-05-2024T20:42:03 - [TEST_STEP][PASSED] - comment("Then he should be able to book a new appointment"): Then he should be able to book a new appointment
+
+30-05-2024T20:42:03 - [MESSAGE][INFO] - Then he should be able to book a new appointment
+
+30-05-2024T20:42:03 - [TEST_STEP][PASSED] - verifyMatch("Hongkong CURA Healthcare Center", getText(findTestObject("Page_AppointmentConfirmation/lbl_Facility")), false): Actual text 'Hongkong CURA Healthcare Center' and expected text 'Hongkong CURA Healthcare Center' are matched 
+
+30-05-2024T20:42:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_Facility' is: 'Hongkong CURA Healthcare Center'
+
+30-05-2024T20:42:03 - [MESSAGE][PASSED] - Actual text 'Hongkong CURA Healthcare Center' and expected text 'Hongkong CURA Healthcare Center' are matched 
+
+30-05-2024T20:42:03 - [TEST_STEP][PASSED] - verifyMatch("Yes", getText(findTestObject("Page_AppointmentConfirmation/lbl_HospitalReadmission")), false): Actual text 'Yes' and expected text 'Yes' are matched 
+
+30-05-2024T20:42:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_HospitalReadmission' is: 'Yes'
+
+30-05-2024T20:42:04 - [MESSAGE][PASSED] - Actual text 'Yes' and expected text 'Yes' are matched 
+
+30-05-2024T20:42:04 - [TEST_STEP][PASSED] - verifyMatch("Medicaid", getText(findTestObject("Page_AppointmentConfirmation/lbl_Program")), false): Actual text 'Medicaid' and expected text 'Medicaid' are matched 
+
+30-05-2024T20:42:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_Program' is: 'Medicaid'
+
+30-05-2024T20:42:04 - [MESSAGE][PASSED] - Actual text 'Medicaid' and expected text 'Medicaid' are matched 
+
+30-05-2024T20:42:04 - [TEST_STEP][PASSED] - verifyMatch("27/12/2016", getText(findTestObject("Page_AppointmentConfirmation/lbl_VisitDate")), false): Actual text '27/12/2016' and expected text '27/12/2016' are matched 
+
+30-05-2024T20:42:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_VisitDate' is: '27/12/2016'
+
+30-05-2024T20:42:04 - [MESSAGE][PASSED] - Actual text '27/12/2016' and expected text '27/12/2016' are matched 
+
+30-05-2024T20:42:04 - [TEST_STEP][PASSED] - verifyMatch("Please make appointment as soon as possible.", getText(findTestObject("Page_AppointmentConfirmation/lbl_Comment")), false): Actual text 'Please make appointment as soon as possible.' and expected text 'Please make appointment as soon as possible.' are matched 
+
+30-05-2024T20:42:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_Comment' is: 'Please make appointment as soon as possible.'
+
+30-05-2024T20:42:05 - [MESSAGE][PASSED] - Actual text 'Please make appointment as soon as possible.' and expected text 'Please make appointment as soon as possible.' are matched 
+
+30-05-2024T20:42:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-05-2024T20:42:05 - [MESSAGE][PASSED] - Browser is closed
+
+30-05-2024T20:42:05 - [TEST_STEP][PASSED] - Start listener action : terminateRunningWebDrivers: null
+
+30-05-2024T20:42:05 - [TEST_STEP][PASSED] - cleanup(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[30-05-2024T20:41:21 - [TEST_SUITE][PASSED] - TS_5: Test Cases/Main Test Cases/TC2_Verify Successful Appointment_With TestOps Visual Testing - Copy]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

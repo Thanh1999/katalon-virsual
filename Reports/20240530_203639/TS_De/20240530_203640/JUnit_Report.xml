@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_De" time="25.442" tests="2" failures="0" errors="0">
+   <testsuite name="TS_De" tests="2" failures="0" errors="0" time="25.442" skipped="0" timestamp="30-05-2024T20:36:46" hostname="PC - DESKTOP-EVNNDTO" id="Test Suites/TS_De">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\FSoft\\katalon-src\\katalon-visual-testing\\Reports\\20240530_203639\\TS_De\\20240530_203640"/>
+         <property name="logFiles" value="D:\\FSoft\\katalon-src\\katalon-visual-testing\\Reports\\20240530_203639\\TS_De\\20240530_203640\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-Login Dialog Origin.png, keyes\keyes-Login Dialog With Data.png, keyes\keyes-Login Dialog Origin.png, keyes\keyes-Login Dialog With Data.png"/>
+         <property name="hostName" value="PC - DESKTOP-EVNNDTO"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.156"/>
+         <property name="sessionId" value="770be606b0934aa3064c27a29c95da66"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Main Test Cases/TC1_Verify Successful Login_With TestOps Visual Testing" time="13.148" classname="Test Cases/Main Test Cases/TC1_Verify Successful Login_With TestOps Visual Testing" status="PASSED">
+         <system-out><![CDATA[30-05-2024T20:36:46 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC1_Verify Successful Login_With TestOps Visual Testing: Test Cases/Main Test Cases/TC1_Verify Successful Login_With TestOps Visual Testing
+
+30-05-2024T20:36:46 - [TEST_STEP][PASSED] - comment("Story: Login to CURA system"): Story: Login to CURA system
+
+30-05-2024T20:36:46 - [MESSAGE][INFO] - Story: Login to CURA system
+
+30-05-2024T20:36:46 - [TEST_STEP][PASSED] - comment("Given that the user has the valid login information"): Given that the user has the valid login information
+
+30-05-2024T20:36:46 - [MESSAGE][INFO] - Given that the user has the valid login information
+
+30-05-2024T20:36:46 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'http://demoaut.katalon.com'
+
+30-05-2024T20:36:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-05-2024T20:36:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-05-2024T20:36:54 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com'
+
+30-05-2024T20:36:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-05-2024T20:36:54 - [MESSAGE][PASSED] - Current window maximized
+
+30-05-2024T20:36:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_CuraHomepage/btn_MakeAppointment")): Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+30-05-2024T20:36:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+30-05-2024T20:36:55 - [TEST_STEP][PASSED] - takeElementScreenshotAsCheckpoint("Login Dialog Origin", LoginObject): Taking screenshot successfully
+
+30-05-2024T20:36:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-05-2024T20:36:55 - [MESSAGE][INFO] - 0 hidden object(s)
+
+30-05-2024T20:36:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Login Dialog Origin.png]]
+
+30-05-2024T20:36:55 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_UserName"), Username): Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+30-05-2024T20:36:56 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+30-05-2024T20:36:56 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+30-05-2024T20:36:56 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+30-05-2024T20:36:56 - [TEST_STEP][PASSED] - takeElementScreenshotAsCheckpoint("Login Dialog With Data", LoginObject): Taking screenshot successfully
+
+30-05-2024T20:36:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-05-2024T20:36:57 - [MESSAGE][INFO] - 0 hidden object(s)
+
+30-05-2024T20:36:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Login Dialog With Data.png]]
+
+30-05-2024T20:36:57 - [TEST_STEP][PASSED] - comment("When he logins to CURA system"): When he logins to CURA system
+
+30-05-2024T20:36:57 - [MESSAGE][INFO] - When he logins to CURA system
+
+30-05-2024T20:36:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_Login")): Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+30-05-2024T20:36:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+30-05-2024T20:36:58 - [TEST_STEP][PASSED] - comment("Then he should be able to login successfully"): Then he should be able to login successfully
+
+30-05-2024T20:36:58 - [MESSAGE][INFO] - Then he should be able to login successfully
+
+30-05-2024T20:36:58 - [TEST_STEP][PASSED] - landingPage = verifyElementPresent(findTestObject("Page_CuraAppointment/div_Appointment"), G_Timeout): Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+30-05-2024T20:36:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+30-05-2024T20:36:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-05-2024T20:36:58 - [MESSAGE][PASSED] - Browser is closed
+
+30-05-2024T20:36:58 - [TEST_STEP][PASSED] - Start listener action : terminateRunningWebDrivers: null
+
+30-05-2024T20:36:58 - [TEST_STEP][PASSED] - cleanup(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/TC1_Verify Successful Login_With TestOps Visual Testing - Copy" time="12.091" classname="Test Cases/Main Test Cases/TC1_Verify Successful Login_With TestOps Visual Testing - Copy" status="PASSED">
+         <system-out><![CDATA[30-05-2024T20:36:59 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC1_Verify Successful Login_With TestOps Visual Testing - Copy: Test Cases/Main Test Cases/TC1_Verify Successful Login_With TestOps Visual Testing - Copy
+
+30-05-2024T20:36:59 - [TEST_STEP][PASSED] - comment("Story: Login to CURA system"): Story: Login to CURA system
+
+30-05-2024T20:36:59 - [MESSAGE][INFO] - Story: Login to CURA system
+
+30-05-2024T20:36:59 - [TEST_STEP][PASSED] - comment("Given that the user has the valid login information"): Given that the user has the valid login information
+
+30-05-2024T20:36:59 - [MESSAGE][INFO] - Given that the user has the valid login information
+
+30-05-2024T20:36:59 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'http://demoaut.katalon.com'
+
+30-05-2024T20:36:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-05-2024T20:36:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-05-2024T20:37:06 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com'
+
+30-05-2024T20:37:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-05-2024T20:37:06 - [MESSAGE][PASSED] - Current window maximized
+
+30-05-2024T20:37:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_CuraHomepage/btn_MakeAppointment")): Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+30-05-2024T20:37:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+30-05-2024T20:37:07 - [TEST_STEP][PASSED] - takeElementScreenshotAsCheckpoint("Login Dialog Origin", LoginObject): Taking screenshot successfully
+
+30-05-2024T20:37:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-05-2024T20:37:07 - [MESSAGE][INFO] - 0 hidden object(s)
+
+30-05-2024T20:37:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Login Dialog Origin.png]]
+
+30-05-2024T20:37:07 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_UserName"), Username): Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+30-05-2024T20:37:08 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+30-05-2024T20:37:08 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+30-05-2024T20:37:08 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+30-05-2024T20:37:08 - [TEST_STEP][PASSED] - takeElementScreenshotAsCheckpoint("Login Dialog With Data", LoginObject): Taking screenshot successfully
+
+30-05-2024T20:37:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-05-2024T20:37:09 - [MESSAGE][INFO] - 0 hidden object(s)
+
+30-05-2024T20:37:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Login Dialog With Data.png]]
+
+30-05-2024T20:37:09 - [TEST_STEP][PASSED] - comment("When he logins to CURA system"): When he logins to CURA system
+
+30-05-2024T20:37:09 - [MESSAGE][INFO] - When he logins to CURA system
+
+30-05-2024T20:37:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_Login")): Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+30-05-2024T20:37:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+30-05-2024T20:37:10 - [TEST_STEP][PASSED] - comment("Then he should be able to login successfully"): Then he should be able to login successfully
+
+30-05-2024T20:37:10 - [MESSAGE][INFO] - Then he should be able to login successfully
+
+30-05-2024T20:37:10 - [TEST_STEP][PASSED] - landingPage = verifyElementPresent(findTestObject("Page_CuraAppointment/div_Appointment"), G_Timeout): Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+30-05-2024T20:37:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+30-05-2024T20:37:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-05-2024T20:37:10 - [MESSAGE][PASSED] - Browser is closed
+
+30-05-2024T20:37:10 - [TEST_STEP][PASSED] - Start listener action : terminateRunningWebDrivers: null
+
+30-05-2024T20:37:10 - [TEST_STEP][PASSED] - cleanup(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[30-05-2024T20:36:46 - [TEST_SUITE][PASSED] - TS_De: Test Cases/Main Test Cases/TC1_Verify Successful Login_With TestOps Visual Testing - Copy]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

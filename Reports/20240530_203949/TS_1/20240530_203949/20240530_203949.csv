@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_1,Chrome 125.0.0.0,,,30-05-2024 20:39:55,30-05-2024 20:40:21,26.439s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/TC1_Verify Successful Login_With TestOps Visual Testing,Chrome 125.0.0.0,"Verify if users can login successful. 
+
+Steps:
+- Click on 'Book Appointment' button to login
+- Input username and password
+- Click on 'Login' button
+
+Expected result:
+'Appointment' section is displayed after successful login",,30-05-2024 20:39:55,30-05-2024 20:40:08,13.374s,PASSED
+"comment(""Story: Login to CURA system"")",Chrome 125.0.0.0,,,30-05-2024 20:39:55,30-05-2024 20:39:55,0.051s,PASSED
+"comment(""Given that the user has the valid login information"")",Chrome 125.0.0.0,,,30-05-2024 20:39:55,30-05-2024 20:39:55,0.006s,PASSED
+openBrowser(G_SiteURL),Chrome 125.0.0.0,,,30-05-2024 20:39:55,30-05-2024 20:40:03,7.865s,PASSED
+maximizeWindow(),Chrome 125.0.0.0,,,30-05-2024 20:40:03,30-05-2024 20:40:03,0.055s,PASSED
+"click(findTestObject(""Page_CuraHomepage/btn_MakeAppointment""))",Chrome 125.0.0.0,,,30-05-2024 20:40:03,30-05-2024 20:40:04,0.775s,PASSED
+"takeElementScreenshotAsCheckpoint(""Login Dialog Origin"", LoginObject)",Chrome 125.0.0.0,,,30-05-2024 20:40:04,30-05-2024 20:40:05,0.670s,PASSED
+"setText(findTestObject(""Page_Login/txt_UserName""), Username)",Chrome 125.0.0.0,,,30-05-2024 20:40:05,30-05-2024 20:40:05,0.648s,PASSED
+"setText(findTestObject(""Page_Login/txt_Password""), Password)",Chrome 125.0.0.0,,,30-05-2024 20:40:05,30-05-2024 20:40:06,0.582s,PASSED
+"takeElementScreenshotAsCheckpoint(""Login Dialog With Data"", LoginObject)",Chrome 125.0.0.0,,,30-05-2024 20:40:06,30-05-2024 20:40:06,0.483s,PASSED
+"comment(""When he logins to CURA system"")",Chrome 125.0.0.0,,,30-05-2024 20:40:06,30-05-2024 20:40:06,0.005s,PASSED
+"click(findTestObject(""Page_Login/btn_Login""))",Chrome 125.0.0.0,,,30-05-2024 20:40:06,30-05-2024 20:40:07,0.949s,PASSED
+"comment(""Then he should be able to login successfully"")",Chrome 125.0.0.0,,,30-05-2024 20:40:07,30-05-2024 20:40:07,0.004s,PASSED
+"landingPage = verifyElementPresent(findTestObject(""Page_CuraAppointment/div_Appointment""), G_Timeout)",Chrome 125.0.0.0,,,30-05-2024 20:40:07,30-05-2024 20:40:08,0.303s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,30-05-2024 20:40:08,30-05-2024 20:40:08,0.135s,PASSED
+Start listener action : terminateRunningWebDrivers,Chrome 125.0.0.0,,,30-05-2024 20:40:08,30-05-2024 20:40:08,0.601s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/TC1_Verify Successful Login_With TestOps Visual Testing - Copy,Chrome 125.0.0.0,"Verify if users can login successful. 
+
+Steps:
+- Click on 'Book Appointment' button to login
+- Input username and password
+- Click on 'Login' button
+
+Expected result:
+'Appointment' section is displayed after successful login",,30-05-2024 20:40:08,30-05-2024 20:40:21,12.859s,PASSED
+"comment(""Story: Login to CURA system"")",Chrome 125.0.0.0,,,30-05-2024 20:40:08,30-05-2024 20:40:08,0.002s,PASSED
+"comment(""Given that the user has the valid login information"")",Chrome 125.0.0.0,,,30-05-2024 20:40:08,30-05-2024 20:40:08,0.002s,PASSED
+openBrowser(G_SiteURL),Chrome 125.0.0.0,,,30-05-2024 20:40:08,30-05-2024 20:40:16,7.184s,PASSED
+maximizeWindow(),Chrome 125.0.0.0,,,30-05-2024 20:40:16,30-05-2024 20:40:16,0.048s,PASSED
+"click(findTestObject(""Page_CuraHomepage/btn_MakeAppointment""))",Chrome 125.0.0.0,,,30-05-2024 20:40:16,30-05-2024 20:40:16,0.780s,PASSED
+"takeElementScreenshotAsCheckpoint(""Login Dialog Origin"", LoginObject)",Chrome 125.0.0.0,,,30-05-2024 20:40:16,30-05-2024 20:40:17,0.747s,PASSED
+"setText(findTestObject(""Page_Login/txt_UserName""), Username)",Chrome 125.0.0.0,,,30-05-2024 20:40:17,30-05-2024 20:40:18,0.663s,PASSED
+"setText(findTestObject(""Page_Login/txt_Password""), Password)",Chrome 125.0.0.0,,,30-05-2024 20:40:18,30-05-2024 20:40:19,0.660s,PASSED
+"takeElementScreenshotAsCheckpoint(""Login Dialog With Data"", LoginObject)",Chrome 125.0.0.0,,,30-05-2024 20:40:19,30-05-2024 20:40:19,0.437s,PASSED
+"comment(""When he logins to CURA system"")",Chrome 125.0.0.0,,,30-05-2024 20:40:19,30-05-2024 20:40:19,0.001s,PASSED
+"click(findTestObject(""Page_Login/btn_Login""))",Chrome 125.0.0.0,,,30-05-2024 20:40:19,30-05-2024 20:40:20,0.943s,PASSED
+"comment(""Then he should be able to login successfully"")",Chrome 125.0.0.0,,,30-05-2024 20:40:20,30-05-2024 20:40:20,0.001s,PASSED
+"landingPage = verifyElementPresent(findTestObject(""Page_CuraAppointment/div_Appointment""), G_Timeout)",Chrome 125.0.0.0,,,30-05-2024 20:40:20,30-05-2024 20:40:20,0.492s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,30-05-2024 20:40:20,30-05-2024 20:40:21,0.140s,PASSED
+Start listener action : terminateRunningWebDrivers,Chrome 125.0.0.0,,,30-05-2024 20:40:21,30-05-2024 20:40:21,0.702s,PASSED
